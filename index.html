@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe-cake</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .mb-1 {
+      /* color: rgb(255, 132, 132); */
+      color: white;
+      font-size: 2rem;
+    }
+
+    .mb-3 {
+      color: rgb(105, 237, 255);
+    }
+
+    .leading-relaxed {
+      /* color: wheat; */
+      /* color: transparent; */
+      opacity: 0;
+    }
+
+    .text-base_feel {
+      color: rgb(147, 27, 27);
+      font-size: 2rem;
+    }
+
+    .mb-2 {
+      color: rgb(147, 27, 27);
+    }
+
+    .bg-white {
+      /* --tw-bg-opacity: 1; */
+      /* background-color: rgba(255, 255, 255, var(--tw-bg-opacity)); */
+      background-color: transparent;
+    }
+
+    .text-base {
+      font-size: 2rem;
+      line-height: 1.5rem;
+    }
+
+    .ml-3,
+    .text-xl {
+      font-size: 2rem;
+      line-height: 1.5rem;
+      color: rgb(147, 27, 27);
+    }
+
+    body {
+      background-image: url('static/masterb.jpg');
+    }
+
+    .mr-5 {
+      color: rgb(147, 27, 27);
+    }
+
+    div+p {
+      color: rgb(147, 27, 27);
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p {
+      color: rgb(147, 27, 27);
+    }
+
+    .mb-4 {
+      color: rgb(204, 95, 7);
+    }
+
+    .btn {
+      background-color: rgb(233, 146, 32);
+    }
+
+    .btn-hover {
+      color: rgb(204, 95, 7);
+      background-color: rgb(233, 146, 32);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container" class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg> -->
+        <a href="#portfolio" src="static/cake.svg"></a>
+        <a href="#top" id="top"><span class="ml-3 text-xl">Cafe-cake</span></a>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="#portfolio">Cakes</a>
+        <!-- <a class="mr-5 hover:text-gray-900" href="#portfolio">portfolio</a> -->
+        <a class="mr-5 hover:text-gray-900" href="#contact">Contact</a>
+        <a class="mr-5 hover:text-gray-900" href="#menucard">Menu card</a>
+        <!-- <a class="mr-5 hover:text-gray-900">Third Link</a>
+            <a class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+      </nav>
+    </div>
+  </header>
+  <!-- portfolio -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-6 mx-auto" id="portfolio">
+      <div class="flex flex-col text-center w-full mb-5">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">&#128523; Celebrate with Happiness
+          and Love &#128523;
+        </h1>
+        <p class="lg:w-2/3 mx-auto text-base_feel">happy to serve</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="static/redvel.jfif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Flavour</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">RED-VELVET</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="static/choco.jfif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Flavour</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">BLACK-FOREST</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="static/black for.jfif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Flavour</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">WHITE-FOREST</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center "
+              src="static/mango.jfif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Flavour</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">MANGO</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="static/pinap.jfif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Flavour</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">PINEAPPLE</h1>
+              <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing
+                tousled waistcoat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+              src="static/roseh.jfif">
+            <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Flavour</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">ROSE-HONEY</h1>
+              <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, at beatae
+                whats is this.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- price-table -->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full ">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Menu-card</h1>
+        <p class="lg:w-2/3 mx-auto text-base_feel sm:text-3xl text-2xl font-medium title-font mb-4">	
+          &#127874; Feel Free to Contact	
+          &#127874; </p>
+      </div>
+      <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+        <table class="table-auto w-full text-left whitespace-no-wrap">
+          <thead>
+            <tr>
+              <th
+                class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
+                Flavour</th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Kilogram
+              </th>
+              <!-- <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Ice-Cake -->
+              </th>
+              <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Price in Rupees</th>
+              <th
+                class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br">
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+              <div id="menucard" href="#menucard" >
+              <tr>
+                <td class="px-4 py-3">BLACK-FOREST</td>
+                <td class="px-4 py-3">500 gm</td>
+                <!-- <td class="px-4 py-3">available</td> -->
+                <td class="px-4 py-3 text-lg text-gray-900">250</td>
+                <td class="w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 border-gray-200 px-4 py-3">ROSE-HONEY</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">270</td>
+                <td class="border-t-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 border-gray-200 px-4 py-3">RAS-MALAI</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">400</td>
+                <td class="border-t-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">CHOCOLATE</td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">270</td>
+                <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              <tr>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">GULABJAM</td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">400</td>
+                <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              <tr>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">MANGO</td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">250</td>
+                <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">PINEAPPLE</td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">250</td>
+                <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">RED-VELVET</td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">500 gm</td>
+                <!-- <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">available</td> -->
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">350</td>
+                <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio"> -->
+                </td>
+              </tr>
+            </tbody>
+          </div>
+        </table>
+      </div>
+      <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+        <!-- <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a> -->
+        <!-- <button
+          class="btn flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Contact</button> -->
+      </div>
+    </div>
+    <p>Contact Here :- (+91 contactno.)</p>
+  </section>
+
+  <hr>
+  <hr>
+  <!-- contact -->
+  <p class="center text-center">Contact Here :- (+91 contactno.)</p>
+  <!-- footer -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <a class="w-5 h-5" id="contact" src="static/cake.svg"></a>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg> -->
+        <a href="#top"><span class="ml-10 text-xl">Cafe-cake</span></a>
+      </a>
+      <p class="sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021
+        iMaXX —
+        <a class="ml-1" rel="noopener noreferrer" target="_blank">@Cafe-cake </a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="ml-3">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" 
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <!-- change if imaxx not in use -->
+        <a class="ml-3 " href="https://www.instagram.com/_imaxx___/" target="_blank">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+
+      </span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
